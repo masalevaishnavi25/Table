@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.table{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+
+table tr,th,td{
+  border-collapse: collapse;
+  text-align: center;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+table{
+    width: 99%;
+    box-shadow: 5px 10px 5px gray;
+}
+
+th{
+    background-color: royalblue;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    padding: 10px;
+}
+
+table tr:hover{
+    background-color: rgba(234, 228, 228, 0.795);
+}
